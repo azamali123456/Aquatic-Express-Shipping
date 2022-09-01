@@ -1,0 +1,113 @@
+.sidebar {
+  display: flex;
+  background-color: white;
+  color: #3f4254;
+}
+.sidebar:hover {
+  background-color: rgb(240, 240, 240);
+  transition: 0.2s;
+  color: #0bb783;
+}
+
+@media only screen and (max-width: 600px) {
+  div div .sidebardiv {
+    display: none;
+  }
+}
+.personalinput {
+  width: 100%;
+  height: 1.8rem;
+  font-size: 1rem;
+  vertical-align: 2px;
+  border-radius: 4px;
+  padding: 1px;
+
+  border: 1px solid #f3f6f9;
+  background-color: #f3f6f9;
+  color: #0bb783;
+}
+.personalinput:focus {
+  outline: none !important;
+  border: none;
+  border-radius: 4px;
+  caret-color: red;
+  caret-color: #231e1e;
+  padding-left: 2px;
+}
+.personalinput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 3;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  /* color: #0BB783; */
+}
+.changepasswordinput {
+  width: 100%;
+  height: 1.8rem;
+  font-size: 1rem;
+  vertical-align: 2px;
+  border-radius: 4px;
+  padding: 1px;
+
+  border: 1px solid #f3f6f9;
+  background-color: #f3f6f9;
+  color: #0bb783;
+}
+.changepasword:focus {
+  outline: none !important;
+  border: none;
+  border-radius: 4px;
+  caret-color: red;
+  caret-color: #231e1e;
+  padding-left: 2px;
+}
+.changepasswordinput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 3;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  /* color: #0BB783; */
+}
+.boxpreferencebutton {
+  border-radius: 5px;
+  width: 4rem;
+  height: 1.7rem;
+  background-color: #0bb783;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxpreferenceinput {
+  width: 100%;
+  height: 1.8rem;
+  font-size: 1rem;
+  vertical-align: 2px;
+  border-radius: 4px;
+  padding: 1px;
+
+  border: 1px solid #f3f6f9;
+  background-color: #f3f6f9;
+  color: #0bb783;
+}
+.boxpreferenceinput:focus {
+  outline: none !important;
+  border: none;
+  border-radius: 4px;
+  caret-color: red;
+  caret-color: #231e1e;
+  padding-left: 2px;
+}
+.boxpreferenceinput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 3;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  /* color: #0BB783; */
+}

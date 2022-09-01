@@ -1,0 +1,128 @@
+
+
+
+
+.App {
+  background-color:#FBF6F0 ;
+}
+.navbar1{
+  background-color: #0BB783;
+  position: fixed;
+}
+
+.footerlink{
+color: rgb(62, 53, 53);
+text-decoration: none;
+
+}
+
+.footerlink:hover{
+  color: #0BB783;
+  text-decoration: none;
+  
+  }
+  .liall{
+    background-color: transparent;
+    border:5px solid #0BB783;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 200px;
+
+    
+  }
+  .liall:hover{
+    border:5px solid #dbe7e3;
+    border-top: none;
+    border-left: none;
+    border-radius: 4px;
+    border-right: none;
+    transition: 1000ms;
+    -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  border-radius: 0px;
+    
+  }
+  .Linkall:after{
+content: "";
+position: absolute;
+background-color: #FBF6F0;
+width: 0;
+height: 2px;
+overflow: hidden;
+transition: 0.3s;
+
+
+  }
+  /* .navbar-nav {
+    padding-left: 5px;
+  } */
+  .Linkall:hover::after{
+    
+background-color: #FBF6F0;
+width: 22vh;
+height: 2px;
+  }
+  .Linkall:active::after{
+    
+    background-color: #FBF6F0;
+    width: 3vw;
+    height: 2px;
+      }
+
+  .liall:active{
+   color: #0BB783;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+    border:5px solid #dbe7e3;
+    border-top: none;
+    border-left: none;
+    border-radius: 4px;
+    border-right: none
+  }
+  .snavbar{
+    color: #5B5B5B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 110%;
+    display: flex;
+    padding-left: 5px;
+    
+  }
+  .snavbar:hover{
+    color: #0BB783;
+    font-weight: 10em;
+    font-size: 110%;
+    
+  }
+  .verticalline{
+    border:"1px solid black" ;
+     border-top:"none";
+      border-bottom:"none"; 
+      border-right:"none"
+}
+.secnavbar{
+ 
+  display:flex;
+  margin-left: 200px;
+   justify-content: space-evenly;
+ 
+}
+.lidiv1{
+  display:flex;
+   align-items: center;
+   position:relative ;
+   top:6px;
+   
+}
+.lidiv{
+  display:flex;
+   align-items: center;
+   position:relative ;
+   top:6px;
+   border:2px solid #E8E8E8;
+   border-top: none;
+   border-right: none;
+   border-bottom: none;
+   padding-left: 2rem;
+}

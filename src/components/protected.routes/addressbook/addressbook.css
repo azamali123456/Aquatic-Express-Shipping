@@ -1,0 +1,46 @@
+.addressbuttonicon{
+  
+   
+    border-radius: 5px;
+    width: 8rem;
+    height: 1.7rem;
+    background-color: #0BB783;
+    color: white;
+    display:flex;
+   align-items: center;
+   justify-content: center;
+ 
+ 
+}
+.addressbook{
+    font-size: 1.2rem;
+}
+.addressfrominput{
+    margin: 2px;
+    outline: none !important;
+    line-height: 25px;
+    width: 25vmax;
+    height: 1.8rem;
+    font-size: 1rem;
+    vertical-align: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.addressfrominput:focus { 
+    outline: none !important;
+    border:1px solid #0BB783;
+    border-radius: 4px;
+    caret-color: red;
+ caret-color: #231e1e;
+padding-left: 2px;
+ 
+}
+.addressfrominput::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;   
+}

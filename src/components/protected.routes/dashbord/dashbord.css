@@ -1,0 +1,101 @@
+.verticalline{
+    border:"1px solid black" ;
+     border-top:"none";
+      border-bottom:"none"; 
+      border-right:"none"
+}
+.dashinput{
+    outline: none !important;
+    line-height: 20px;
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.dashinput:focus { 
+    outline: none !important;
+    border:1px solid #0BB783;
+    border-radius: 4px;
+    caret-color: red;
+ caret-color: #231e1e;
+padding-left: 2px;
+ 
+}
+.dashinput::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+    position: absolute;
+    padding: 1px;
+    
+   
+}
+.showinput{
+  
+    line-height: 20px;
+    width: 170px;
+    height: 28px;
+    border-radius: 3px;
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+  outline: none 
+}
+.showinput:focus { 
+   
+    border:1px solid #0BB783;
+    border-radius: 3px;
+    caret-color: red;
+ 
+
+ 
+}
+/* .showinput::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+    position: absolute;
+    padding: 1px;
+   
+} */
+/* .showinput option {
+    font-size: 14px;
+    padding: 5px;
+    
+   
+} */
+.showinput select {
+    background: transparent;
+    width: 170px;
+    font-size:12px;
+    height: 28px;
+    
+  }
+  .inputfield{
+    margin: 2px;
+    outline: none !important;
+    line-height: 25px;
+    width: 170px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.inputfield:focus { 
+    outline: none !important;
+    border:1px solid #0BB783;
+    border-radius: 4px;
+    caret-color: red;
+ caret-color: #231e1e;
+padding-left: 2px;
+ 
+}
+.inputfield::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+    position: absolute;
+    padding: 1px;
+   
+}
+
+  
