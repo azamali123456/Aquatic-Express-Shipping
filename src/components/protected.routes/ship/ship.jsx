@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import DataTable from "react-data-table-component";
-import Select from "react-select";
+// import Select from "react-select";
 import "./ship.css";
 
 const Ship = function () {
@@ -1073,13 +1073,13 @@ const Ship = function () {
                           setpakage(e.target.value);
                         }}
                       >
-                        <Select
+                        {/* <Select
                           // styles={customStyles}
                           // width='30rem'
                           // height="10rem"
                           options={countrylist}
                           onChange={countryfun}
-                        />
+                        /> */}
                       </div>
                     </div>
                     <div
