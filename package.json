@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react-bootstrap-table-next": "^4.0.18",
     "autoprefixer": "^10.4.8",
     "axion": "^0.1.0",
     "axios": "^0.27.2",
@@ -33,7 +34,7 @@
   },
   "engines": {
     "node": "16.17.0",
-    "npm": "8.11.0"
+    "npm": "8.19.0"
   },
   "scripts": {
     "start": "react-scripts start",
